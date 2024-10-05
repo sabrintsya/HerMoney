@@ -1,7 +1,11 @@
+import FaqHerMoney from "../components/FaqHerMoney"
+
 const FaqPageHerMoney = () => {
   return (
-    <div>FaqPageHerMoney</div>
-  )
-}
+    <div>
+        <FaqHerMoney />
+    </div>
+  );
+};
 
-export default FaqPageHerMoney
+export default FaqPageHerMoney;
