@@ -10,6 +10,10 @@ function App() {
     <div>
       <Routes>
         <Route path="/" Component={HomepageHerMoney} />
+        <Route path="/kelas" Component={KelasHerMoney} />
+        <Route path="/testimonial" Component={TestimonialHerMoney} />
+        <Route path="/faq" Component={FaqPageHerMoney} />
+        <Route path="/syaratketentuan" Component={SyaketenPage} />
       </Routes>
     </div>
   );
