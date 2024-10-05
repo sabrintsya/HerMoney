@@ -4,4 +4,4 @@ const FooterHerMoney = () => {
   )
 }
 
-export default FooterHerMoney
+export default FooterHerMoney;

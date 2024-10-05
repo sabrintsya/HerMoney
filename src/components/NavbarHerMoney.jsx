@@ -4,4 +4,4 @@ const NavbarHerMoney = () => {
   )
 }
 
-export default NavbarHerMoney
+export default NavbarHerMoney;

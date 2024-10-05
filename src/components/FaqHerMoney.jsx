@@ -4,4 +4,4 @@ const FaqHerMoney = () => {
   )
 }
 
-export default FaqHerMoney
+export default FaqHerMoney;
