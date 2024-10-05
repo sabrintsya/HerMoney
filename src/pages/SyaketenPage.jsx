@@ -4,4 +4,4 @@ const SyaketenPage = () => {
   )
 }
 
-export default SyaketenPage
+export default SyaketenPage;

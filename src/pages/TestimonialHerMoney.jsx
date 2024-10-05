@@ -4,4 +4,4 @@ const TestimonialHerMoney = () => {
   )
 }
 
-export default TestimonialHerMoney
+export default TestimonialHerMoney;

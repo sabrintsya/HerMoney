@@ -4,4 +4,4 @@ const KelasHerMoney = () => {
   )
 }
 
-export default KelasHerMoney
+export default KelasHerMoney;
