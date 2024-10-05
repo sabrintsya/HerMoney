@@ -1,7 +1,7 @@
 const HomepageHerMoney = () => {
   return (
-    <div>HomepageHerMoney</div>
-  )
-}
+    <div>Homepage</div>
+  );
+};
 
-export default HomepageHerMoney
+export default HomepageHerMoney;
