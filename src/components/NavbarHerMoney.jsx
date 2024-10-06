@@ -24,7 +24,7 @@ if (window.scrollY > 10 ) {
     <div>
     <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
       <Container>
-      <Navbar.Brand href="#home" className="fs-3 fw-bold">
+      <Navbar.Brand href="#home" className="logo">
         HerMoney.
       </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
