@@ -1,8 +1,11 @@
+// Import File here
 import {Container, Row, Col} from "react-bootstrap";
 import HeroImage from "../assets/img/Hero HerMoney.png";
+import { kelasTerbaru } from "../data/index";
 
 const HomepageHerMoney = () => {
   return (
+    // Homepage HerMoney
     <div className="homepage">
       <header className="w-100 min-vh-100">
         <Container>
@@ -20,13 +23,29 @@ const HomepageHerMoney = () => {
           </Row>
         </Container>
       </header>
+
+      {/* Homepage Kelas HerMoney */}
       <div className="kelas w-100 min-vh-100">
         <Container>
           <Row>
-            <col>
-            <h1>Kelas Terbaru</h1>
-            <p>Kuasai Keuanganmu, Raih Kebebasan Finansial!</p>
-            </col>
+            <Col>
+            <h1 className="text-center fw-bold">Kelas Terbaru</h1>
+            <p className="text-center">Kuasai Keuanganmu, Raih Kebebasan Finansial!</p>
+            </Col>
+          </Row>
+          <Row>
+            {kelasTerbaru.map((kelas) => {
+              return <Col key={kelas.id}>
+                <img src={kelas.image} alt="img-kelas" className="mb-5 rounded-top" />
+                <div className=" star mb-2">
+                <i className={kelas.star1}></i>
+                <i className={kelas.star2}></i>
+                <i className={kelas.star3}></i>
+                <i className={kelas.star4}></i>
+                <i className={kelas.star5}></i>
+                </div>
+            </Col>;
+            })}
           </Row>
         </Container>
       </div>
