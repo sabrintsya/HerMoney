@@ -4,7 +4,7 @@ import HomepageHerMoney from "./pages/HomepageHerMoney";
 import KelasHerMoney from "./pages/KelasHerMoney";
 import TestimonialHerMoney from "./pages/TestimonialHerMoney";
 import FaqPageHerMoney from "./pages/FaqPageHerMoney";
-// import FooterHerMoney from "./components/FooterHerMoney";
+import FooterHerMoney from "./components/FooterHerMoney";
 import SyaketenPage from "./pages/SyaketenPage";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path="/syaratketen" Component={SyaketenPage} />
       </Routes>
 
-      {/* <FooterHerMoney /> */}
+      <FooterHerMoney />
     </div>
   );
 };
