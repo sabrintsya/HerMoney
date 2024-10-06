@@ -7,7 +7,7 @@
 :root {
   --primary-color: #f6f8fd;
   --secondary-color: #347928;
-  --color-text: #231942;
+  --color-text: #C0EBA6;
   --navbar-color: #ffffff;
   --navbar-color-text: #000000;
 }
@@ -18,6 +18,18 @@
     position: fixed;
     padding: 15px 0 15px 0 ;
     width: 100%;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    z-index: 9999;
+}
+
+.navbar.color-active {
+    background-color: var(--navbar-color);
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #3479289c;
 }
 
 .navbar .nav-link a {
@@ -39,9 +51,15 @@
 .navbar .nav-link .active:hover {
     color: var(--navbar-color);
 }
+
+.navbar .logo {
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
 /* Navbar HerMoney */
 
-/* Header HerMoney */
+/* Homepage Header HerMoney */
 
 header {
     background: #C0EBA6; /* fallback for old browsers */
@@ -50,5 +68,67 @@ header {
     width: 100px;
   }
 
-  /* Header HerMoney */
+  .homepage .header-box h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #2a6021;
+    margin-top: 9rem;
+  }
+
+  .homepage  .header-box h1 span {
+    font-weight: 700;
+  }
+
+  .homepage .header-box p{
+    line-height: 2;
+    color: var(--secondary-color);
+    font-weight: 500;
+  }
+
+  .homepage .header-box img {
+    width: 100%;
+    padding-top: 9rem;
+  }
+
+  @media screen and (max-width : 992px) {
+    .homepage .header-box img {
+        width: 400px;
+        display: block;
+        margin-inline: auto;
+        padding-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 575px){
+    .homepage .header-box h1 {
+        font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .homepage .header-box h1 {
+        font-size: 2.4rem;
+    }
+
+    .homepage .header-box p {
+        font-size: 14px;
+    }
+
+    .homepage .header-box img {
+        width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .homepage .header-box h1 {
+        font-size: 2rem;
+    }
+
+    .homepage .header-box p {
+        font-size: 12px;
+    }
+  }
+
+
+  /* Homepage Header HerMoney */
   
