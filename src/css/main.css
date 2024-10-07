@@ -7,14 +7,14 @@
 
 /* Color Website HerMoney */
 :root {
-  --primary-color: #f6f8fd;
+  --primary-color: #ffffff;
   --secondary-color: #347928;
   --color-text: #C0EBA6;
-  --navbar-color: #ffffff;
+  --navbar-color: #f6f8fdd5;
   --navbar-color-text: #000000;
 }
 
-/* Navbar HerMoney */
+/* Styling Navbar HerMoney */
 
 .navbar {
     position: fixed;
@@ -59,9 +59,9 @@
     color: var(--secondary-color);
     font-size: 2rem;
 }
-/* Navbar HerMoney */
+/* Styling Navbar HerMoney */
 
-/* Homepage Header HerMoney */
+/* Styling Homepage Header HerMoney */
 
 header {
     background: #C0EBA6; /* fallback for old browsers */
@@ -92,9 +92,9 @@ header {
     padding-top: 9rem;
   }
 
-  /* Homepage Header HerMoney */
+  /*Styling  Homepage Header HerMoney */
 
-  /* Media Query HerMoney */
+  /* Media Query Homepage HerMoney */
   @media screen and (max-width : 992px) {
     .homepage .header-box img {
         width: 400px;
@@ -134,9 +134,9 @@ header {
     }
   }
 
-  /* Media Query HerMoney */
+  /* Media Query HomePage HerMoney */
 
-  /* Homepage Kelas HerMoney */
+  /* Styling  Kelas HerMoney */
   .homepage .kelas {
     background-color: var(--navbar-color);
     padding-bottom: 100px;
@@ -146,9 +146,15 @@ header {
     padding-top: 25px;
   }
 
-  .homepage .kelas .row:nth-child(1) ,
+  .homepage .kelas .row:nth-child(1) h1,
   .homepage .kelas .row:nth-child(1) p {
     color: var(--color-text);
+  }
+
+  .homepage .kelas .row:nth-child(2) h5 {
+    color: var(--color-text);
+    font-weight: bold;
+    line-height: 1.5;
   }
 
   .homepage .kelas .row:nth-child(2) {
@@ -167,7 +173,7 @@ header {
     padding: 0;
   }
 
-  .homepage .kelas .row:nth-child(2) .star {
+  .homepage .kelas .row:nth-child(2) .star  i{
     color: gold;
   }
 
@@ -175,8 +181,56 @@ header {
     padding-top: 100px;
   }
 
-  
-  /* Homepage Kelas HerMoney */
+  .kelas-page .kelas {
+    color: var(--navbar-color);
+    padding-bottom: 100px;
+    
+  }
+
+  .kelas-page .kelas .row:nth-child(1) h1 {
+    color: var(--secondary-color);
+  }
+
+  .kelas-page .kelas .row:nth-child(1) p {
+    color: var(--color-text);
+  }
+
+  .kelas-page .kelas .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+  .kelas-page .kelas .row:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px ;
+    padding-inline: 10px ;
+  }
+
+  .kelas-page .kelas .row:nth-child(2) img {
+    width: 100%;
+  }
+
+  .kelas-page .kelas .row:nth-child(2) .col {
+    background-color: var(--primary-color);
+    padding: 0;
+  }
+
+  .kelas-page .kelas .row:nth-child(2) .star  i{
+    color: gold;
+  }
+
+  .kelas-page .kelas .row:nth-child(2) h5 {
+    color: var(--color-text);
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  .kelas-page .kelas .row:nth-child(3) {
+    padding-top: 100px;
+  }
+
+  /* Styling  Kelas HerMoney */
 
   /* Homepage Testimonial HerMoney */
   .homepage .testimonial {
@@ -245,6 +299,61 @@ header {
 
   }
 
+.testimonial-page   .testimonial  {
+    background-color: var(--navbar-color);
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
+ .testimonial-page .testimonial .row:nth-child(1) h1
+  {
+    color:var(--secondary-color);
+  }
+
+ .testimonial-page .testimonial .row:nth-child(1) p {
+   color: var(--color-text);
+  }
+
+  .testimonial-page .testimonial .desc {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 50px;
+  }
+
+  .testimonial-page .testimonial .row:nth-child(1) {
+    padding-bottom: 100px ;
+  }
+  .testimonial-page .testimonial  .people {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    column-gap: 10px;
+  }
+
+  .testimonial-page .testimonial  .people h5,
+  .testimonial-page .testimonial  .people p {
+    color: var(--secondary-color);
+  }
+
+  .testimonial-page .testimonial .people h5 {
+    font-weight: 600;
+  }
+
+  .testimonial-page .testimonial .people p {
+    opacity: 50%;
+  }
+
+  .testimonial-page .testimonial .people img {
+    width: 80px;
+    border-radius: 100%;
+
+  }
+
+  /* Styling  Testimonial HerMoney */
+
+  /* media query testimonial */
+
   @media screen and (max-width: 768px ) {
     .homepage .testimonial  .swiper-slide .people {
       justify-content: center;
@@ -254,9 +363,9 @@ header {
       padding-inline: 10px ;
     }
   }
-  /* Homepage Testimonial HerMoney */
+   /* media query testimonial */
 
-  /* Homepage FAQ HerMoney */
+  /* Styling  FAQ HerMoney */
   .faq {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -283,12 +392,28 @@ header {
   .faq .accordion .accordion-body {
     background-color: var(--color-text);
   }
-   /* Homepage FAQ HerMoney */
+   /* Styling  FAQ HerMoney */
 
-   /* Homepage Footer HerMoney */
+   /* Styling  syarat dan ketentuan HerMoney */
+   .syaratketen .syarat-ketentuan {
+    padding-top: 150px;
+    background-color: var(--navbar-color);
+   }
+
+   .syaratketen .syarat-ketentuan h1,
+   .syaratketen .syarat-ketentuan h4  {
+    color: var(--secondary-color);
+   }
+
+   .syaratketen .syarat-ketentuan p{
+    color: var(--color-text);
+    line-height: 2;
+   }
+   /* Styling  Footer HerMoney */
    .footer {
     width: 100%;
     min-width: 60vh ;
+    background-color: var(--primary-color);
    }
 
    .footer .row:nth-child(1) .col:nth-child(1) h3{
@@ -332,7 +457,7 @@ header {
     color: var(--color-text);
    }
 
-   /* footer subcribe */
+   /* Styling  subcribe */
    .footer .subcribe {
     display: flex;
     align-items: center;
@@ -345,7 +470,9 @@ header {
     padding: 5px;
    }
 
-   /* Footer social media */
+   /* Styling  subcribe */
+
+   /* Styling social media */
 
    .footer .social {
     display: flex;
@@ -368,7 +495,9 @@ header {
     color: var(--secondary-color);
    }
 
-   /* Footer copyright */
+    /* Styling social media */
+
+   /* Styling  copyright */
 
    .footer .row:nth-child(2) {
     margin-top: 100px;
@@ -385,4 +514,4 @@ header {
    .footer .row:nth-child(2) span:hover {
     color: var(--color-text);
    }
-   /* Homepage Footer HerMoney */
+   /* Styling Footer HerMoney */
