@@ -2,7 +2,7 @@ import FaqHerMoney from "../components/FaqHerMoney";
 
 const FaqPageHerMoney = () => {
   return (
-    <div>
+    <div className="pt-5">
         <FaqHerMoney />
     </div>
   );
