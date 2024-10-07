@@ -4,24 +4,23 @@
 
 # Tampilan Website di desktop dan mobile 👩‍💻
 ![Macbook-Air-localhost](https://github.com/user-attachments/assets/5ec54903-42b7-4bf8-9b78-fc6a577d4029)
-![iPhone-11-PRO-MAX-localhost](https://github.com/user-attachments/assets/87262b7e-a16f-4af0-8116-39025660ea11)
 
 # Getting Started
 - Clone the Repository:
 - Bash
-[git clone](https://github.com/sabrintsya/HerMoney-Frontend-Project-based-on-Challenge.git)
-Gunakan kode dengan hati-hati.🙌
+- [git clone](https://github.com/sabrintsya/HerMoney-Frontend-Project-based-on-Challenge.git)
+- Gunakan kode dengan hati-hati.🙌
 
 # Install Dependencies:
 - Bash
-[cd](HerMoney-Frontend-Project-based-on-Challenge)
-npm install
-Gunakan kode dengan hati-hati.
+- [cd](HerMoney-Frontend-Project-based-on-Challenge)
+- npm install
+- Gunakan kode dengan hati-hati🙌
 
 # Start Development Server:
 - Bash
-npm run dev
-Gunakan kode dengan hati-hati.👌
+- npm run dev
+- Gunakan kode dengan hati-hati.👌
 
 # React + Vite!
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
