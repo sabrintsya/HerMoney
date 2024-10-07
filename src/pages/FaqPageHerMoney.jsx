@@ -1,4 +1,4 @@
-import FaqHerMoney from "../components/FaqHerMoney"
+import FaqHerMoney from "../components/FaqHerMoney";
 
 const FaqPageHerMoney = () => {
   return (
