@@ -1,16 +1,18 @@
-// Import File here
+// Import React boostrap
 import {Container, Row, Col} from "react-bootstrap";
-import HeroImage from "../assets/img/Hero HerMoney.png";
+import HeroImage from "../assets/img/Hero HerMoney.svg";
 
 import { kelasTerbaru, dataSwiper } from "../data/index";
 import {useNavigate} from "react-router-dom";
 
+// Import Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
+import FaqHerMoney from "../components/FaqHerMoney";
 
 
 const HomepageHerMoney = () => {
@@ -127,15 +129,16 @@ const HomepageHerMoney = () => {
         })}
        
       </Swiper>
-            </Row>
-            <Row>
-
+      {/* Homepage Testimonial HerMoney */}
             </Row>
           </Container>
         </div>
+         {/* Homepage FAQ HerMoney */}
+      <FaqHerMoney />
+      {/* Homepage FAQ HerMoney */}
       </div>
     </div>
   );
-};
+}
 
 export default HomepageHerMoney;
