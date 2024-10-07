@@ -26,6 +26,8 @@
     -ms-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     z-index: 9999;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
 }
 
 .navbar.color-active {
@@ -75,6 +77,7 @@ header {
     font-weight: 600;
     color: #2a6021;
     margin-top: 9rem;
+  --animate-delay: 0.6s;
   }
 
   .homepage  .header-box h1 span {
@@ -85,6 +88,7 @@ header {
     line-height: 2;
     color: var(--secondary-color);
     font-weight: 500;
+    --animate-delay: 0.6s;
   }
 
   .homepage .header-box img {
