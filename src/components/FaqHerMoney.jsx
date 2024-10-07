@@ -11,7 +11,7 @@ const FaqHerMoney = () => {
           <h2 className="text-center">Pertanyaan Yang sering ditanyakan</h2>
           </Col>
         </Row>
-        <Row className="row-col-lg-2 row-col-1 g-4 pt-5 "> 
+        <Row className="row-cols-lg-2 row-cols-1 g-4 pt-5 "> 
           {faq.map((data) => {
           return (
             <Col key={data.id}>
