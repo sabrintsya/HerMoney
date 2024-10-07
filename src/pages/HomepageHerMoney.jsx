@@ -28,7 +28,8 @@ const HomepageHerMoney = () => {
             <h1 className="mb-4">Rencanakan <br /> <span>Keuanganmu </span> <br /> untuk Masa Depan!
             </h1>
             <p className="mb-4">"Kursus ini akan mengajarkan Anda cara merencanakan keuangan secara efektif, sehingga Anda dapat mencapai tujuan finansial dan hidup lebih tenang di masa depan."</p>
-            <button className="btn btn-success btn-lg rounded-1 mx-3 mb-xs-0 mb-2">Lihat Kelas</button>
+            <button className="btn btn-success btn-lg rounded-1 mx-3 mb-xs-0 mb-2 " onClick={() => navigate("/kelas")}>
+              Lihat Kelas</button>
             <button className="btn btn-outline-success btn-lg rounded-1 mb-xs-0 mb-2">Lihat Promo</button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
