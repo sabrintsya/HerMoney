@@ -143,11 +143,10 @@ header {
   }
 
   .homepage .kelas .row:nth-child(1) {
-    padding-top: 15px;
-    padding-bottom: 100px;
+    padding-top: 25px;
   }
 
-  .homepage .kelas .row:nth-child(1) h1,
+  .homepage .kelas .row:nth-child(1) ,
   .homepage .kelas .row:nth-child(1) p {
     color: var(--color-text);
   }
@@ -172,6 +171,85 @@ header {
   .homepage .kelas .row:nth-child(2) .star {
     color: gold;
   }
+
+  .homepage .kelas .row:nth-child(3) {
+    padding-top: 100px;
+  }
   /* Homepage Kelas HerMoney */
+
+  /* Homepage Testimonial HerMoney */
+  .homepage .testimonial {
+    background-color: var(--color-text);
+  }
+
+  .homepage .testimonial h1 {
+    color: #2a6021;
+  }
+
+  .homepage .testimonial .swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  
+
+  .homepage .testimonial .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    background: var(--navbar-color);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+  }
+
+  .homepage .testimonial .swiper-slide:active {
+    cursor: grabbing;
+  }
+
+  .homepage .testimonial .swiper-slide .desc {
+    color: var(--color-text);
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 50px;
+  }
+
+  .homepage .testimonial .swiper-slide .people {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  .homepage .testimonial .swiper-slide .people h5,
+  .homepage .testimonial .swiper-slide .people p {
+    color: var(--color-text);
+  }
+
+  .homepage .testimonial .swiper-slide  .people h5 {
+    font-weight: 600;
+  }
+
+  .homepage .testimonial .swiper-slide .people p {
+    opacity: 50%;
+  }
+
+  .homepage .testimonial .swiper-slide .people img {
+    width: 70%;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 768px ) {
+    .homepage .testimonial  .swiper-slide .people {
+      justify-content: center;
+    }
+
+    .homepage .testimonial .swiper {
+      padding-inline: 10px ;
+    }
+  }
+  /* Homepage Testimonial HerMoney */
 
   
