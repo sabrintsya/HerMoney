@@ -2,13 +2,25 @@
 - HerMoney adalah Website Course Management keuangan untuk Perempuan indonesia, Berdasarkan tema yaitu perempuan dan kemiskinan.
 - Kursus ini dirancang khusus untuk memberdayakan perempuan dan membantu mereka mencapai kemandirian finansial. Melalui materi yang mudah dipahami dan contoh-contoh nyata, peserta akan belajar cara mengelola keuangan pribadi, membuat anggaran yang efektif, berinvestasi dengan bijak, dan memulai usaha kecil. Dengan pengetahuan dan keterampilan ini, perempuan dapat meningkatkan kualitas hidup mereka dan keluar dari lingkaran kemiskinan.
 
+# Bahasa pemrograman yang digunakan :
+- Html
+- css
+- libary css : boostrap
+- javascript
+- libary javascript : react
+
+# Tool yang digunakan :
+- Github
+- netfliy
+- vite
+
 # Tampilan Website di desktop dan mobile 👩‍💻
 ![Macbook-Air-localhost](https://github.com/user-attachments/assets/5ec54903-42b7-4bf8-9b78-fc6a577d4029)
 
 # Getting Started
 - Clone the Repository:
 - Bash
-- [git clone](https://github.com/sabrintsya/HerMoney-Frontend-Project-based-on-Challenge.git)
+- git clone https://github.com/sabrintsya/HerMoney-Frontend-Project-based-on-Challenge.git
 - Gunakan kode dengan hati-hati.🙌
 
 # Install Dependencies:
