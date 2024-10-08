@@ -13,9 +13,9 @@
 
 # Install Dependencies:
 - Bash
-- [cd](HerMoney-Frontend-Project-based-on-Challenge)
+- cd HerMoney-Frontend-Project-based-on-Challenge
 - npm install
-- Gunakan kode dengan hati-hati🙌
+- Gunakan kode dengan hati-hati✌️
 
 # Start Development Server:
 - Bash
