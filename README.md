@@ -1,47 +1,65 @@
-# Tugas Perempuan Inovasi 2024 Fullstack developer Create Frontend Project based on Challenge (Individu)❤️
-- HerMoney adalah Website Course Management keuangan untuk Perempuan indonesia, Berdasarkan tema yaitu perempuan dan kemiskinan.
-- Kursus ini dirancang khusus untuk memberdayakan perempuan dan membantu mereka mencapai kemandirian finansial. Melalui materi yang mudah dipahami dan contoh-contoh nyata, peserta akan belajar cara mengelola keuangan pribadi, membuat anggaran yang efektif, berinvestasi dengan bijak, dan memulai usaha kecil. Dengan pengetahuan dan keterampilan ini, perempuan dapat meningkatkan kualitas hidup mereka dan keluar dari lingkaran kemiskinan.
+# 💰 HerMoney - Financial Course Management for Women
 
-# Bahasa pemrograman yang digunakan :
-- Html
-- css
-- libary css : boostrap
-- javascript
-- libary javascript : react
+HerMoney adalah platform edukasi keuangan yang dirancang untuk memberdayakan perempuan Indonesia dalam mencapai kemandirian finansial. Website ini menyediakan kursus interaktif dan mudah dipahami tentang manajemen keuangan, budgeting, investasi, dan kewirausahaan kecil. Dengan keterampilan ini, perempuan dapat meningkatkan kualitas hidup mereka dan keluar dari lingkaran kemiskinan. ✨
 
-# Tool yang digunakan :
-- Github
-- netfliy
-- vite
+---
 
-# Tampilan Website di desktop dan mobile 👩‍💻
-![Macbook-Air-localhost](https://github.com/user-attachments/assets/5ec54903-42b7-4bf8-9b78-fc6a577d4029)
+## 🚀 Tech Stack
 
-# Getting Started
-- Clone the Repository:
-- Bash
-- git clone https://github.com/sabrintsya/HerMoney-Frontend-Project-based-on-Challenge.git
-- Gunakan kode dengan hati-hati.🙌
+### 🛠️ Bahasa Pemrograman & Library:
+- **Frontend:** HTML, CSS (Bootstrap), JavaScript, React.js
 
-# Install Dependencies:
-- Bash
-- cd HerMoney-Frontend-Project-based-on-Challenge
-- npm install
-- Gunakan kode dengan hati-hati✌️
+### 🛠️ Tools yang Digunakan:
+- **Version Control:** Git & GitHub
+- **Deployment:** Netlify
+- **Development Server:** Vite
 
-# Start Development Server:
-- Bash
-- npm run dev
-- Gunakan kode dengan hati-hati.👌
+---
 
-# React + Vite!
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-Currently, two official plugins are available:
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Tampilan Website (Desktop & Mobile)
+![HerMoney UI](https://github.com/user-attachments/assets/5ec54903-42b7-4bf8-9b78-fc6a577d4029)
 
+---
 
+## 🏁 Getting Started
 
+### 1️⃣ Clone Repository
+```bash
+# Clone proyek dari GitHub
+git clone https://github.com/sabrintsya/HerMoney-Frontend-Project-based-on-Challenge.git
+```
 
+### 2️⃣ Install Dependencies
+```bash
+# Masuk ke folder proyek
+cd HerMoney-Frontend-Project-based-on-Challenge
 
-  
+# Install package yang diperlukan
+npm install
+```
+
+### 3️⃣ Jalankan Development Server
+```bash
+npm run dev
+```
+
+Website akan berjalan di **http://localhost:5173/**
+
+---
+
+## 🎨 React + Vite!
+Proyek ini menggunakan **React** dan **Vite** untuk pengalaman pengembangan yang lebih cepat dengan fitur HMR (Hot Module Replacement) dan optimasi performa. 🔥
+
+### 🔧 Plugin yang Digunakan:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) – Menggunakan **Babel** untuk Fast Refresh.
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) – Menggunakan **SWC** untuk performa lebih cepat.
+
+---
+
+## 🤝 Contributing
+Jika Anda ingin berkontribusi, silakan fork repository ini dan buat pull request! Semua masukan dan kontribusi sangat dihargai. 💖
+
+📬 **Hubungi:** [GitHub](https://github.com/sabrintsya)
+
+✨ Gunakan kode ini dengan bijak dan tetap semangat dalam belajar! ✌️🚀
+
